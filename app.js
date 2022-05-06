@@ -1,4 +1,6 @@
 // import functions and grab DOM elements
+import { plants } from './plants.js';
+import { renderPlant } from './utils.js';
 
 // let state
 
