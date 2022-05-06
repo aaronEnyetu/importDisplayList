@@ -2,7 +2,7 @@
 // import { example } from '../example.js';
 
 import { renderPlant } from '../utils.js';
-import { plants } from '../plants.js';
+import { plants } from '../data.js';
 
 const test = QUnit.test;
 

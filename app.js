@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import { plants } from './plants.js';
+import { plants } from './data.js';
 import { renderPlant } from './utils.js';
 
 const plantListElem = document.getElementById('plants');

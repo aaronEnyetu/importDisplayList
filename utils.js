@@ -24,3 +24,4 @@ export function renderPlant(plant) {
     div.append(h1, img, p, h2, ul);
     return div;
 }
+
