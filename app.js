@@ -2,6 +2,14 @@
 import { plants } from './plants.js';
 import { renderPlant } from './utils.js';
 
+const plantListElem = document.getElementById('plants');
+
+
+for (let plant of plants) {
+    const plantDiv = renderPlant(plant);
+    plantListElem.append(plantDiv);
+}
+
 // let state
 
 // set event listeners 
