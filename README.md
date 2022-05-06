@@ -15,6 +15,29 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 1) **Think about how to validate each of your features according to a Definition of Done. (Hint: console.log usually helps here.)**
 1) **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 
+###Import and Display a List Practice Plan###
+
+##State
+
+- Array of Plant Classification (name, classification, subspecies, family, harvest, image)
+
+##HTML Elements
+<div>
+<img>
+<ul>
+
+
+##Functions
+Rendering TDD Functions
+
+- Writing Function for utils (Build a render function)
+- Writing function for test
+
+##Objects
+Plants
+Minerals
+Climate
+
 Additional considerations:
 - Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
 - Consider your data model. 
