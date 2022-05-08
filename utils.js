@@ -40,10 +40,10 @@ export function renderAnimal(animal) {
     p.textContent = `${animal.name} originate from ${animal.origin} and domesticated ${animal.domesticated} years ago `;
 
     const h2 = document.createElement('h2');
-    h2.textContent = 'Classes';
+    h2.textContent = 'classes';
 
     const ul = document.createElement('ul');
-    for (let types of animal.Classes) {
+    for (let types of animal.classes) {
         const li = document.createElement('li');
         li.textContent = types;
         ul.append(li);
