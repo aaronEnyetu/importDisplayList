@@ -20,3 +20,24 @@
     border-radius: 50%;
     border: 5px solid rgb(80, 45, 5);
 }
+#animals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.animal {
+    width: 40%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid rgb(154, 245, 8);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: bisque;
+}
+.animal img {
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid rgb(80, 45, 5);
+}

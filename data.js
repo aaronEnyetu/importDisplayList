@@ -7,6 +7,8 @@ export const plants = [
         image: './assets/corn.jpg',
         subspecies: ['sweetcorn', 'flintcorn', 'popcorn'],
     },
+
+
     {
         name: 'watermelon', classification: 'fruit', origin: 'Africa', domesticated: '3500BC', image: './assets/watermelon.jpeg'
     },
@@ -18,4 +20,15 @@ export const plants = [
         name: 'watermelon', classification: 'fruit', origin: 'Europe', domesticated: '3000BC', image: './assets/carrot.jpeg'
     }
 
+];
+
+export const animals = [
+    {
+        name: 'cattle',
+        origin: 'taurus mountains',
+        domesticated: 10500,
+        image:'./assets/cattle.jpg',
+        Classes: ['calves', 'heifers', 'cows', 'bulls', 'steers'],
+
+    }
 ];
