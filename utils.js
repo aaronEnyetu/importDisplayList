@@ -51,3 +51,30 @@ export function renderAnimal(animal) {
     div.append(h1, img, p, h2, ul);
     return div;
 }
+
+export function renderMineral(mineral) {
+    const div = document.createElement('div');
+    div.classList.add('mineral');
+
+    const h1 = document.createElement('h1');
+    h1.textContent = mineral.name;
+
+    const img = document.createElement('img');
+    img.src = mineral.image;
+
+
+    const p = document.createElement('p');
+    p.textContent = `${mineral.name} is a ${mineral.element} element with the symbol ${mineral.symbol} and atomic number ${mineral.atomicNumber} `;
+
+    const h2 = document.createElement('h2');
+    h2.textContent = 'types';
+
+    const ul = document.createElement('ul');
+    for (let mineralType of mineral.types) {
+        const li = document.createElement('li');
+        li.textContent = mineralType;
+        ul.append(li);
+    }
+    div.append(h1, img, p, h2, ul);
+    return div;
+}
