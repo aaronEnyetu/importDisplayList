@@ -41,3 +41,24 @@
     border-radius: 50%;
     border: 5px solid rgb(148, 81, 4);
 }
+#minerals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mineral {
+    width: 20%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid rgb(68, 64, 60);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(149, 169, 177);
+}
+.mineral img {
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid rgb(133, 192, 184);
+}
