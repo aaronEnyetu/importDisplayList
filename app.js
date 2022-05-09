@@ -17,6 +17,7 @@ const mineralListElem = document.getElementById('minerals');
 
 
 for (let plant of plants) {
+   // plantListElem.textContent = '';
     const plantDiv = renderPlant(plant);
     plantListElem.append(plantDiv);
 }

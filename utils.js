@@ -14,12 +14,13 @@ export function renderPlant(plant) {
 
     const h2 = document.createElement('h2');
     h2.textContent = 'Types';
-
+    console.log(plant.subspecies);
     const ul = document.createElement('ul');
     for (let species of plant.subspecies) {
         const li = document.createElement('li');
         li.textContent = species;
         ul.append(li);
+       
     }
     div.append(h1, img, p, h2, ul);
     return div;
@@ -41,7 +42,7 @@ export function renderAnimal(animal) {
 
     const h2 = document.createElement('h2');
     h2.textContent = 'classes';
-
+    console.log(animal.classes);
     const ul = document.createElement('ul');
     for (let types of animal.classes) {
         const li = document.createElement('li');
@@ -68,7 +69,7 @@ export function renderMineral(mineral) {
 
     const h2 = document.createElement('h2');
     h2.textContent = 'types';
-
+    console.log(mineral.types);
     const ul = document.createElement('ul');
     for (let mineralType of mineral.types) {
         const li = document.createElement('li');

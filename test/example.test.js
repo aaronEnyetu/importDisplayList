@@ -11,7 +11,7 @@ const test = QUnit.test;
 test('test plant render function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = `<div class="plant"><h1>corn</h1><img src="./assets/corn.jpg"><p>corn is a cereal grain first domesticated in mexico about 10000BC years ago  </p><h2>Types</h2><ul><li>sweetcorn</li><li>flintcorn</li><li>popcorn</li></ul></div>`;
+    const expected = `<div class="plant"><h1>corn</h1><img src="./assets/corn.jpg"><p>corn is a cereal grain first domesticated in mexico about 10000BC years ago  </p><h2>Types</h2><ul><li>sweetcorn</li><li>flint-corn</li><li>popcorn</li></ul></div>`;
     
     //Act 
     // Call the function you're testing and set the result to a const
