@@ -5,7 +5,7 @@
     flex-wrap: wrap;
 }
 .plant {
-    width: 40%;    
+    width: 100%;    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +26,7 @@
     flex-wrap: wrap;
 }
 .animal {
-    width: 40%;    
+    width: 100%;    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,8 +37,8 @@
     background-color: rgb(170, 168, 30);
 }
 .animal img {
-    width: 50%;
-    border-radius: 50%;
+    width: 60%;
+    border-radius: 80%;
     border: 5px solid rgb(148, 81, 4);
 }
 #minerals {
@@ -47,7 +47,7 @@
     flex-wrap: wrap;
 }
 .mineral {
-    width: 20%;    
+    width: 50%;    
     display: flex;
     flex-direction: column;
     align-items: center;
