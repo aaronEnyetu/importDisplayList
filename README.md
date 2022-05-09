@@ -9,18 +9,52 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 1) **Make a drawing of your app. Simple "wireframes"** 
 1) **Look at the drawing and name the HTML elements you'll need to realize your vision**
 1) **Look at the drawing and imagine using the app. What _state_ do you need to track?** 
-1) **For each HTML element ask: Why do I need this? (i.e., "we need div to display the results in")** 
-1) **Once we know _why_ we need each element, think about how to implement the "Why" as a "How" (i.e., `resultsEl.textContent = newResults`)**
-1) **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change? Does any DOM update?**
-1) **Think about how to validate each of your features according to a Definition of Done. (Hint: console.log usually helps here.)**
-1) **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 
-Additional considerations:
-- Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
-- Consider your data model. 
-  - What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need? 
-  - What are the key/value pairs? 
-  - What arrays might you need? 
-  - What needs to live in a persistence layer?
-- Is there some state we need to initialize?
-- Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
+
+###To do list###
+
+- Come up with domains for my data
+-Create an array of 3 objects for the domain
+-TDD the render fucntion
+-Import array and render fucntion and grab a container element from the DOM
+-Loop through the array, render and apend a styled domain element.
+1) **For each HTML element ask: Why do I need this? (i.e., "we need div to display the results in")** 
+
+
+###HTML Elements###
+*Heading
+*Paragraph
+*Image
+*`div`
+*`ul`
+1) **Once we know _why_ we need each element, think about how to implement the "Why" as a "How" (i.e., `resultsEl.textContent = newResults`)**
+
+
+###Functions
+- `renderPlant`
+- ` renderAnimal`
+- `renderMineral`
+
+###Import and Display a List Practice Plants###
+
+##State
+
+- Array of Plant Classification (name, classification, subspecies, family, harvest, image)
+
+##HTML Elements
+<div>
+<img>
+<ul>
+
+
+##Functions
+Rendering TDD Functions
+
+- Writing Function for utils (Build a render function)
+- Writing function for test
+
+##Objects
+Plants
+Minerals
+Climate
+

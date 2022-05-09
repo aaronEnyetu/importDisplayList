@@ -1,1 +1,64 @@
 /* add home page styles here */
+#plants {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.plant {
+    width: 30%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid rgb(154, 245, 8);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: bisque;
+}
+.plant img {
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid rgb(80, 45, 5);
+}
+#animals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.animal {
+    width: 30%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid rgb(80, 45, 5);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(170, 168, 30);
+}
+.animal img {
+    width: 60%;
+    border-radius: 80%;
+    border: 5px solid rgb(148, 81, 4);
+}
+#minerals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mineral {
+    width: 50%;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 5px solid rgb(68, 64, 60);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(149, 169, 177);
+}
+.mineral img {
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid rgb(133, 192, 184);
+}
